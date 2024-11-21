@@ -16,3 +16,10 @@ python -c "from transformers import pipeline; print(pipeline('sentiment-analysis
 ```python
 python -c "from transformers import pipeline; print(pipeline('sentiment-analysis', model='nlptown/bert-base-multilingual-uncased-sentiment')('we love you'))"
 ```
+
+### hf-env.yml
+
+```sh
+conda env create -f hf-env.yml
+```
+
